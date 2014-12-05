@@ -4,7 +4,7 @@ import random
 import math
 
 conference_size = 10
-number_of_simulations = 50000
+number_of_simulations = 5000000
 home_teams = True
 lowest_rating = 1000
 highest_rating = 1800
