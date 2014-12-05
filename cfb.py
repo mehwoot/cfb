@@ -8,7 +8,7 @@ number_of_simulations = 5000000
 home_teams = True
 lowest_rating = 1000
 highest_rating = 1800
-home_advantage = 250
+home_advantage = 50
 
 def elo_win_chance(my_rating, opp_rating):
 	return 1.0 / (1.0 + pow(10, (opp_rating - my_rating) / 400.0))
